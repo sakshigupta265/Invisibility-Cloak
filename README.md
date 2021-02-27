@@ -1,4 +1,4 @@
-# Invisibility-Cloak
+# Invisibility-Cloak ✨
 
 ## About
 Hello there 👋! I am [Sakshi Gupta](https://www.linkedin.com/in/sakshi-gupta-49ab8b179/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B3wtZ8RY%2FR1KWRtb%2FZ0qBew%3D%3D) a backend developer and Machine Learning Enthusiast. After attending a super fun boot-camp about Data Science and Machine Learning I learned how to work around with python libraries like [OpenCv](https://opencv.org/) and [Numpy](https://numpy.org/).
@@ -18,7 +18,6 @@ Install the latest version of [Python3](https://www.python.org/downloads/)
 ```
 pip install opencv-python      #installs opencv
 pip install numpy              #installs numpy
-
 ```
 
 ## Steps
