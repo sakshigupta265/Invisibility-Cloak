@@ -1,8 +1,8 @@
-import cv2
-import numpy as np
+import cv2 # import opencv
+import numpy as np # import numpy, to work with numpy arrays
 
-camera = cv2.VideoCapture(0)
-back = cv2.imread("background.jpg")
+camera = cv2.VideoCapture(0, cv2.CAP_DSHOW) # initialize camera
+back = cv2.imread("background.jpg") # read the background 
 
 while camera.isOpened():
     # read each frame
@@ -46,10 +46,10 @@ while camera.isOpened():
 
         cloak = part1 + part2
 
-        cv2.imshow("cloak",cloak)
+        cv2.imshow("cloak",cloak) # show output
 
-        if cv2.waitKey(5) == ord('q'):
+        if cv2.waitKey(5) == ord('x'):
           break 
 
-camera.release()
-cv2.destroyAllWindows
+camera.release() # release camera
+cv2.destroyAllWindows # close all windows

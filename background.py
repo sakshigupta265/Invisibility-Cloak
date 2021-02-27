@@ -1,8 +1,8 @@
 # capture the background
 
-import cv2  # import computer vision
+import cv2  # import opencv
 
-camera = cv2.VideoCapture(0) # initialise your camera
+camera = cv2.VideoCapture(0, cv2.CAP_DSHOW) # initialise your camera
 
 while camera.isOpened():
     ret, back = camera.read()      
