@@ -47,5 +47,8 @@ pip install numpy              #installs numpy
 
 ## Demo
 
+![video-to-gif-converter (1)](https://user-images.githubusercontent.com/54631569/109410800-94fb1a80-79c3-11eb-9daa-35b6f88db777.gif)
+
+
 ## Thanks! 🎉
 
