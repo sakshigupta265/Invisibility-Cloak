@@ -1,6 +1,6 @@
 import cv2 # import opencv
 import numpy as np # import numpy, to work with numpy arrays
-
+# this is a comment
 camera = cv2.VideoCapture(0, cv2.CAP_DSHOW) # initialize camera
 back = cv2.imread("background.jpg") # read the background 
 
